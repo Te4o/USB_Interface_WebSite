@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>USB Интерфейс</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Меню <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Начало</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="shortDescription.html">Кратко описание</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="versions.html">Версии</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="history.html">История</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#hostControlers">Хост Конртолери</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="application.html">Приложение</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading">Хост Конртолери</div>
+                <a href="#hostControlers" class="page-scroll btn btn-xl">Научете повече</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Host Controlers Section -->
+    <section id="hostControlers" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Хост контролери</h2>
+                    <h3 class="section-subheading text-muted">USB-контролерните чипове в компютъра се придържат към един от трите зададени стандарти. За едно USB-устройство
+                        тези използвани контролери са (почти във всички случаи) прозрачни. Все пак потребителят трябва да
+                        е наясно що за чип се използва в компютъра. Ето и трите вида чип-контролери:</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/intel.png" class="img-responsive img-circle" alt="">
+                        <h4>Universal Host Controller Interface</h4>
+                        <p class="text-muted">UHCI е обявен през ноември 1995 г. от Intel. Актуалната версия е 1.1. UHCI-чиповете пренасят информация
+                            със скорост 1,5 или 12 Mbit/s в съответно Low или Full-Speed режим. Сега този тип чипове се произвежда
+                            от Intel и VIA Technologies.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/microsoft.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Open Host Controller Interface</h4>
+                        <p class="text-muted">OHCI е спецификация, разработена с общи усилия от Compaq, Microsoft и National Semiconductor. Версия
+                            1.0 на стандарта е представена през декември 1995 г., актуалната версия е 1.0а и идва през 1999
+                            г. OHCI контролерът по принцип има същите възможности както UHCI чипове, но поема повече задачи
+                            от хардуера и заради това е по-бърз.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/data.jpg" style="width:250px" class="img-responsive img-circle" alt="">
+                        <h4>Enhanced Host Controller Interface</h4>
+                        <p class="text-muted">EHCI е готов за USB 2.0. При този контролер е възможно само предаването в режим High-Speed (480 Mbit/s).
+                            Когато устройство тип USB 1.1 е свързано към такъв порт, EHCI прехвърля трансфера към UHCI или
+                            OHCI контролера, които пък са вградени в EHCI. Ако не е на разположение ЕHCI контролер, High-Speed
+                            устройства ще бъдат прехвърлени към USB 1.1 контролер и ще работят на възможно най-малка си честотна
+                            лента.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pager">
+                <a href="history.html"><h1 class="glyphicon glyphicon-menu-left"></h1></a>                    
+                <a href="application.html"><h1 class="glyphicon glyphicon-menu-right"></h1></a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background:black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow44.js"></script>
+
+                    <span class="copyright">All Rights Recieved &copy; Stoyan Dimitrov 2016</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+    <!-- Page Transition -->
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
